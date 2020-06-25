@@ -114,3 +114,15 @@ body {
       height: 80px;
     }
   }
+  .navbar-brand h1 {
+      padding-top:10px;
+      font-size: 5vw /*1vs = 1% of viewport width*/
+  }
+  .navbar-brand p {
+      text-transform: uppercase;
+      font-size: .6em;
+      margin-top: 12px;
+  }
+  .navbar-brand p img {
+      height: 20px;
+  }
