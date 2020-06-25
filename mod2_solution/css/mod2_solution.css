@@ -1,5 +1,5 @@
 * {
-    nox-sizing: border-box;
+    box-sizing: border-box;
 }
 h1 {
     margin-bottom: 15px;
