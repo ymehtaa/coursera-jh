@@ -6,11 +6,11 @@
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
-  text-align: left;
+  text-align: center;
 }
 
 body {
-  background-color: #30D5F0;
+  background-color: whitesmoke;
 }
 
 p {
@@ -29,7 +29,7 @@ p {
 
 section{
   border: 1px solid black;
-  background-color: #9420c2; 
+  background-color: grey; 
   width: 100%;
   height: 200px;
   font-family: Helvetica;
@@ -48,12 +48,13 @@ section{
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #3d30f0;
+  background-color: #d35c5c;
 }
 
 #beef {
   border: 1px solid black;
   text-align: center;
+  color: white;
   width: 30%;
   margin-left: 70%;
   font-weight: bold;
@@ -61,7 +62,7 @@ section{
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #1bcf75;
+  background-color: #eb3939;
 }
 
 #sushi {
@@ -74,7 +75,7 @@ section{
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #e79332;
+  background-color: #b6aa3e;
 }
 
 .food {
