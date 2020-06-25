@@ -1,4 +1,6 @@
-p {
-    color: blue;
-    font-size: 25px;
+* {
+    nox-sizing: border-box;
+}
+h1 {
+    margin-bottom: 15px;
 }
