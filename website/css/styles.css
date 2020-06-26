@@ -4,7 +4,7 @@ body {
     background-color: #61122f;
     font-family: 'Oxygen', sans-serif;
 }
-
+/*HEADER styling*/
 #header-nav {
     background-color: #f6b319;
     border-radius: 0;
@@ -83,11 +83,48 @@ body {
     clear: both;
     margin-top: -30px;
   }
-  /* END HEADER */
+  /* END Header */
 
+  /*Home Page*/
   .container .jumbotron {
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
+  }
+
+  #menu-tile, #specials-tile, #map-tile {
+      height: 250px;
+      width: 100%;
+      margin-bottom: 15px;
+      position: relative;
+      border: 2px solid #3F0C1F;
+      overflow: hidden;
+  }
+
+  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+      box-shadow: 0 1px 5px 1px #cccccc;
+  }
+
+  #menu-tile {
+      background: url('../images/menu_tile.jpg') no-repeat;
+      background-position: center;
+  }
+
+  #specials-tile {
+      background: url('../images/specials_tile.jpg') no-repeat;
+      background-position: center;
+  }
+
+  #menu-tile span, #specials-tile span, #map-tile span {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 1.6em;
+      text-transform: uppercase;
+      background-color: #000;
+      color: #fff;
+      opacity: 0.8;
   }
   
   /*Large Devices*/
@@ -99,8 +136,9 @@ body {
     }
   }
 
-  /********** Medium devices only **********/
+  /* Medium devices only */
   @media (min-width: 992px) and (max-width: 1199px) {
+  
   /* Header */
   #logo-img {
     background: url('../restaurant-logo.png') no-repeat;
@@ -117,7 +155,7 @@ body {
   /* End Header */
 }
 
-/********** Small devices only **********/
+/* Small devices only */
   @media (min-width: 768px) and (max-width: 991px) {
     .container .jumbotron {
         background: url('../images/jumbotron_768.jpg') no-repeat;
@@ -126,7 +164,7 @@ body {
     }
   }
 
-/********** Extra small devices only **********/
+/* Extra small devices only */
 @media (max-width: 767px) {
     /* Header */
     .navbar-brand {
@@ -183,4 +221,20 @@ body {
   #collapsable-nav a span{
     font-size: 1em;
     margin-right: 5px;
+}
+
+#menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+}
+
+@media (max-width: 479px) {
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
 }
