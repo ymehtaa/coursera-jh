@@ -31,11 +31,11 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: blue;
+	background-color: #00FF99;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
-	color: white;
+	color: black;
 	position: relative;
 	overflow: auto;
 }
