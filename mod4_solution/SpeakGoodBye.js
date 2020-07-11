@@ -26,4 +26,3 @@ byeSpeaker.speak = function (name) {
 window.byeSpeaker = byeSpeaker;
 
 })(window);
-© 2020 GitHub, Inc.
